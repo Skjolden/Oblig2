@@ -44,7 +44,7 @@ body {
     flex-basis: 50%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 465px) {
     .container {
         display: flex;
         justify-content: space-between;
