@@ -6,6 +6,7 @@ the different screen-sizes.•define and use, at least, one 'class';*/
 }
 body {
     margin: 0;
+    background-color: #ff8c00;
 }
 
 #header ul{
@@ -35,6 +36,7 @@ body {
 .container {
     max-width: 1400px;
     margin: 40px auto 0 auto;
+    background-color: #ffbc00;
     
 }
 
@@ -57,13 +59,15 @@ h1, h2 {
     .container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .reverse-order {
         flex-direction: row-reverse;
     }
-    
+
     h1 {
+        margin-left: 20px;
         text-align: left;
     }
 }
