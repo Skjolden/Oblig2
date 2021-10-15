@@ -7,3 +7,27 @@ the different screen-sizes.•define and use, at least, one 'class';*/
 body {
     margin: 0;
 }
+
+#header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6700;
+}
+
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    background-color: #ff9a00;
+}
