@@ -50,8 +50,9 @@ body {
         justify-content: space-between;
     }
     .reverse-order {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
+
 }
 
 picture *{
