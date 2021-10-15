@@ -37,7 +37,8 @@ main, footer {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1400px;margin: 40px auto 0 auto;
+    background-color: #ffbb004b
     margin: 40px auto 0 auto;
     background-color: #ffbb004b;
 }
