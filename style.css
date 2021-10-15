@@ -31,3 +31,25 @@ body {
 #header li a:hover {
     background-color: #ff9a00;
 }
+
+.container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    
+}
+
+.item {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 50%;
+}
+
+@media (min-width: 900px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .reverse-order {
+        flex-direction: row;
+    }
+}
