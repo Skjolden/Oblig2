@@ -44,17 +44,6 @@ body {
     flex-basis: 50%;
 }
 
-@media (min-width: 465px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .reverse-order {
-        flex-direction: row-reverse;
-    }
-
-}
-
 picture *{
     max-width: 100%;
     height: auto;
@@ -63,3 +52,19 @@ picture *{
 h1, h2 {
     text-align: center;
 }
+
+@media (min-width: 465px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reverse-order {
+        flex-direction: row-reverse;
+    }
+    
+    h1 {
+        text-align: left;
+    }
+}
+
