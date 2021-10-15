@@ -49,6 +49,10 @@ main, footer {
     flex-basis: 50%;
 }
 
+.item p::first-line {
+    font-weight: bold;
+}
+
 picture *{
     max-width: 100%;
     height: auto;
