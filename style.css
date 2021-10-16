@@ -9,6 +9,11 @@ main, footer {
     margin: 2%;
 }
 
+header>nav>ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 #header ul{
     list-style-type: none;
     margin: 0;
@@ -58,6 +63,7 @@ main, footer {
 picture *{
     max-width: 100%;
     height: auto;
+    
 }
 
 h1, h2 {
@@ -94,6 +100,11 @@ p {
         justify-content: space-between;
         align-items: center;
     }
+    .item{
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-basis: 50%;
+    }
 
     .reverse-order {
         flex-direction: row-reverse;
@@ -114,6 +125,12 @@ p {
 
     p {
         font-size: 1rem;
+    }
+}       
+ @media (max-width: 500px) {
+
+    header>nav>ul {
+        grid-template-columns: 1fr;
     }
 }
 
